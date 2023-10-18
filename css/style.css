@@ -144,6 +144,7 @@ body {
 /* Showcase */
 .showcase {
   text-align: center;
+  padding-block: 2rem;
 }
 
 .showcase-container {
@@ -187,4 +188,119 @@ body {
   font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
+}
+
+/* Events */
+.events {
+  background: #fff;
+  padding: 20px;
+  padding-block: 2rem;
+}
+
+.events-container {
+  box-shadow: #ccc 2px 5px 3px 5px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1rem;
+  padding: 30px;
+}
+
+.events-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Booking */
+.booking {
+  position: relative;
+  padding: 2rem;
+}
+
+.booking-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 50px;
+}
+
+.booking-heading {
+  text-align: center;
+}
+
+.booking-container input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  outline: none;
+}
+
+.booking-btn {
+  background: #df1c1c;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Bree Serif", serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.top {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottom {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Footer */
+.footer {
+  background-image: url(../images/event\ card.jpg);
+  background-color: #0000008e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  height: 500px;
+  margin: 2rem;
+}
+
+.footer .logo {
+  padding: 2rem;
+  padding-block: 2rem;
+}
+
+.topbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rem;
+  padding-block: 5rem;
+  padding: 2rem;
+}
+
+.topbox div p {
+  margin-bottom: 1rem;
+}
+
+.topbox div i {
+  margin-right: 10px;
+}
+
+.bottombox {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40rem;
+  margin-top: 8rem;
+  padding: 2rem;
+  padding-block: 1rem;
 }
